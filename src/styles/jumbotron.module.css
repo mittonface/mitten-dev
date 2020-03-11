@@ -1,0 +1,16 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myface {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.reducePadding {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}

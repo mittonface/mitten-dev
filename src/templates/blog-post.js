@@ -12,21 +12,18 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const { previous, next } = pageContext
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout
+      location={location}
+      title={siteTitle}
+      postTitle={post.frontmatter.title}
+      postDescription={post.frontmatter.description}
+    >
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
       <article>
         <header>
-          <h1
-            style={{
-              marginTop: rhythm(1),
-              marginBottom: 0,
-            }}
-          >
-            {post.frontmatter.title}
-          </h1>
           <p
             style={{
               ...scale(-1 / 5),

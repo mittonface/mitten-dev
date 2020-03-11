@@ -1,0 +1,30 @@
+html {
+  /* background: url(../images/sayagata-400px.png); */
+}
+
+.nav-site-name {
+  font-family: "Major Mono Display";
+  font-size: 1em;
+  padding-left: 10px;
+}
+
+.roboto {
+    font-family: "Roboto Mono";
+}
+
+.mono{
+    font-family: "Major Mono Display";
+}
+
+.merriweather{
+    font-family: "Merriweather";
+    line-height: 1.75rem;
+    letter-spacing: 0.01rem;
+    color: #2e2e2e;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    box-shadow: none;
+}

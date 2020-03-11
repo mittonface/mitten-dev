@@ -2,13 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Brent Mitton`,
+      summary: ``,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `mittonface`,
     },
   },
   plugins: [
@@ -74,6 +74,13 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`major mono display`, `roboto mono`, `merriweather`],
+        display: "swap",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
